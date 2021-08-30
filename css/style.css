@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%; 
+    
+  }
+  
+  body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e5e5e5;
+    margin: 7%;
+  }
+  h1{
+      text-align: center;
+      padding-bottom: 4%;
+      font-size: 250%;
+  }
+  h2{
+    padding-top: 3%;
+    margin-left: 60%;
+    font-weight: 10%;
+    font-size: 250%;
+  }
+  .container-1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1%;
+
+  }
+  .write-up{
+    padding-top: 20%;
+    font-size: 110%;
+  }
+  .container-2{
+    background-color: white;
+    margin: 10%;
+    padding: 8%;
+    box-shadow: 2px 6px 9px 1px rgba(0, 0, 0, 0.274);
+    border-radius: 0% 0% 1% 1%;
+    
+  }
+  .cu{
+    font-size: 300%;
+  }
+  .form-group{
+    padding-top: 3%;
+  }
+  .form-group input{
+    width: 100%;
+    padding-top: 2%;
+    margin-top: 2%;
+  }
+  
+  .form-group textarea{
+    width: 100%;
+    margin-top: 2%;
+  }
+  .submit input{
+    width: 20%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 80%;
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+  }
+  @media (max-width: 720px){
+    h2{
+      text-align: center;
+      font-size: 200%;
+      margin-left: 0%;
+      padding-bottom: 4%;
+    }
+    
+    .container-1  {
+      grid-template-columns: 1fr;
+      padding: 0%;
+      margin: 0%;
+  }
+  .write-up{
+    padding-top: 10%;
+    font-size: 100%;
+    padding-right: 10%;
+  }
+  .container-2{
+    margin-top: 10%;
+    
+    margin-left: 14%;
+    padding: 5%;
+  }
+  .cu{
+    font-size: 200%;
+  }
+  .submit input{
+    width: 30%;
+    margin-left: 70%;
+}
+  }
